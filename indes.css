@@ -1,0 +1,98 @@
+header {
+    display: flex;          
+    justify-content: space-between; 
+    align-items: center;    
+    background-color: #523612; 
+    color: rgb(0, 0, 0);          
+    padding: 20px;
+    max-height: 70px;          
+}
+
+#logof{
+    border-radius: 15px;
+    width: 72px;
+    height: 72px;
+    transition: width 0.3s, height 0.3s;
+}
+
+#logof:hover{
+    width: 85px;
+    height: 85px;
+}
+.search-box{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 27rem;
+    height: 1.6rem;
+    border: 3px solid rgb(14, 87, 4);
+    border-radius: 8px;         
+}
+.search-box input {
+    width: 27rem;
+    padding-left: 0.5rem;
+    max-height: 2rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #ffffff;
+  }
+
+.search-box input::placeholder {
+    font-size: 1.2rem;
+  }
+
+.search-box input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+
+.search-box button {
+    display: flex;
+    overflow: hidden;
+    width: 5.5rem;
+    max-height: 1.7rem;
+    border: 0px;
+    border: 0.5px solid #ffffff;
+    background-color:white;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 2.5px solid rgb(23, 112, 12);
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.menu {
+    list-style: none;       
+    padding: 0;
+    margin: 0;
+    display: flex;         
+}
+
+
+.menu li {
+    margin-left: 20px;      
+}
+
+
+.menu li a {
+    color: white;          
+    text-decoration: none;  
+    padding: 10px 15px;     
+    background-color: rgb(23, 112, 12); 
+    border-radius: 5px;     
+    transition: 0.3s;       
+}
+
+
+.menu li a:hover {
+    background-color: #0fe4f3; 
+}
+
+/*O BODY COMEÇA AQ*/
+
+body{
+    margin: 0;
+}
