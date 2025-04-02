@@ -119,6 +119,14 @@ body{
     margin: 0;
 }
 
+#divmain{
+    height: 400px;
+    width: 360px;
+    padding-left: 20px;
+    display: flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
+}
+
+/*O footer começa aq*/
 footer{
     height: 10rem;
     background-color: lightgray;
