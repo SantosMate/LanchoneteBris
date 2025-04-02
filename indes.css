@@ -12,12 +12,11 @@ header {
     border-radius: 15px;
     width: 72px;
     height: 72px;
-    transition: width 0.3s, height 0.3s;
+    transition: 0.3s;
 }
 
 #logof:hover{
-    width: 85px;
-    height: 85px;
+    scale: 1.15;
 }
 .search-box{
     display: flex;
@@ -25,7 +24,8 @@ header {
     width: 27rem;
     height: 1.6rem;
     border: 3px solid rgb(14, 87, 4);
-    border-radius: 8px;         
+    border-radius: 8px;    
+
 }
 .search-box input {
     width: 27rem;
