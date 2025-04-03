@@ -130,6 +130,7 @@ body{
     margin-left: 40px;
     margin-bottom: 10px;
     
+    
 }
 
 #IMGindex{
@@ -156,19 +157,22 @@ body{
 .texto{
     padding-left: 30px;
     margin-bottom: 200px;
+    margin-top: 50px;
 }
 
 .card, .texto {
     display: inline-block;
+    
 
 }
 
 #h1tx{
-    font-size: 50px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #p1tx{
     margin: 0;
-    font-size: 25px;
+    font-size: 18.4px;
 }
 #arroz{
     height:350px;
