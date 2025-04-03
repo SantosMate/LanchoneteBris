@@ -129,16 +129,21 @@ body{
     left: 50%;
     margin-left: 40px;
     margin-bottom: 10px;
+    
 }
 
 #IMGindex{
     padding-left:26.4px;
     padding-top: 26.2px;
+    padding-right: 26.4px;
+    padding-bottom: 26.4px;
     ;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
     max-width: 420px;
     max-height: 480px;
-    left: 50%;
     
+}
+.textoIndex{
+    background-color: aqua;
 }
 
 #arroz:hover{
@@ -148,6 +153,23 @@ body{
 
 }
 
+.texto{
+    padding-left: 30px;
+    margin-bottom: 200px;
+}
+
+.card, .texto {
+    display: inline-block;
+
+}
+
+#h1tx{
+    font-size: 50px;
+}
+#p1tx{
+    margin: 0;
+    font-size: 25px;
+}
 #arroz{
     height:350px;
     width: 350px;
