@@ -198,6 +198,65 @@ body{
 
 /*PAGINA Cardapio*/
 
+.cardC1{
+    display:inline-flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
+    width: 275px;
+    height: 402.9px;
+    background-image: url(imagens/fundolojav4.png);
+    justify-content: flex-start;
+    border-radius: 17px;
+    left: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    margin-right: 63.3px;
+}
+
+.cardC2{
+    display:inline-flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
+    width: 275px;
+    height: 402.9px;
+    background-image: url(imagens/fundolojav4.png);
+    justify-content: flex-start;
+    border-radius: 17px;
+    left: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    margin-right: 63.3px;
+}
+
+.cardC3{
+    display:inline-flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
+    width: 275px;
+    height: 402.9px;
+    background-image: url(imagens/fundolojav4.png);
+    justify-content: flex-start;
+    border-radius: 17px;
+    left: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    margin-right: 63.3px;
+}
+
+.cardC4{
+    display:inline-flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
+    width: 275px;
+    height: 402.9px;
+    background-image: url(imagens/fundolojav4.png);
+    justify-content: flex-start;
+    border-radius: 17px;
+    left: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    margin: right 0;
+}
+
+/*.cardC1, .cardC2, .cardC3, .cardC4{
+    display: inline-block;
+}
 
 
 /*O footer começa aq*/
