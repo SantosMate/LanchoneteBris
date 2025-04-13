@@ -1,7 +1,7 @@
 /*PAGINA INDEX*/
 
 body {
-    min-height: 100vh;
+    min-height: 104vh;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap; 
@@ -203,13 +203,12 @@ body{
     width: 275px;
     height: 402.9px;
     background-image: url(imagens/fundolojav4.png);
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     border-radius: 17px;
-    left: 50%;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    flex-wrap: nowrap;
-    margin-right: 63.3px;
+    /* left: 50%; */
+    margin-left: 45px;
+    /* flex-wrap: nowrap; */
+    margin-right: 92.6px;
     
     
 }
@@ -219,13 +218,12 @@ body{
     width: 275px;
     height: 402.9px;
     background-image: url(imagens/fundolojav4.png);
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     border-radius: 17px;
     left: 50%;
-    margin-left: 40px;
-    margin-bottom: 10px;
+    
     flex-wrap: nowrap;
-    margin-right: 63.3px;
+    margin-right: 92.6px;
 }
 
 .cardC3{
@@ -236,10 +234,9 @@ body{
     justify-content: flex-start;
     border-radius: 17px;
     left: 50%;
-    margin-left: 40px;
-    margin-bottom: 10px;
+    
     flex-wrap: nowrap;
-    margin-right: 63.3px;
+    margin-right: 92.6px;
 }
 
 .cardC4{
@@ -250,8 +247,7 @@ body{
     justify-content: flex-start;
     border-radius: 17px;
     left: 50%;
-    margin-left: 40px;
-    margin-bottom: 10px;
+        
     flex-wrap: nowrap;
     margin: right 0;
 }
@@ -272,6 +268,7 @@ body{
     transition: 0.5s;
     overflow: hidden;
     max-height: 500px;
+    
 }
 
 .cardC1:hover {
@@ -292,6 +289,7 @@ body{
     transition: 0.5s;
     overflow: hidden;
     max-height: 500px;
+    
 }
 
 .cardC2:hover {
@@ -311,6 +309,7 @@ body{
     transition: 0.5s;
     overflow: hidden;
     max-height: 500px;
+    
 }
 
 .cardC3:hover {
@@ -330,12 +329,14 @@ body{
     transition: 0.5s;
     overflow: hidden;
     max-height: 500px;
+    
 }
 
 .cardC4:hover {
-    height: 450px;
-    scale: 1.15;
+   height: 450px;
+   scale: 1.15;
 }
+
 
 /*Button cards*/
 
@@ -344,20 +345,30 @@ body{
     top:410px;
     max-height: 40px;
     left: 95px;
+    
 }
 
 /*imagem nos cards*/
 
-#IMGcardapio{
-    max-width: 10px;
-    max-height: 10px;
-    width: 1%;
-    height: 1%;
+.IMGC{
+    align-items: center;
+    display: flex;
+    padding-left: 37.8px;
+}
+
+#fotoz{
+    border-radius: 10px;
+    transition: 1.0s;
+}
+
+#fotoz:hover{
+    scale: 1.15;
 }
 
 
 /*O footer começa aq*/
 footer{
+    
     height: 6em;
     background-color: lightgray;
 }
