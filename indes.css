@@ -194,144 +194,30 @@ main {
 }
 
 /*PAGINA Cardapio*/
-
-.cardC1{
-    display:flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
-    width: 275px;
-    height: 402.9px;
+.card1 {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardC{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 16%;
+    height: 80%;
     background-image: url(imagens/fundolojav4.png);
-    /* justify-content: flex-start; */
     border-radius: 17px;
-    /* left: 50%; */
-    margin-left: 45px;
-    /* flex-wrap: nowrap; */
-    margin-right: 92.6px;
-    
-    
-}
-
-.cardC2{
-    display:flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
-    width: 275px;
-    height: 402.9px;
-    background-image: url(imagens/fundolojav4.png);
-    /* justify-content: flex-start; */
-    border-radius: 17px;
-    left: 50%;
-    
-    flex-wrap: nowrap;
-    margin-right: 92.6px;
-}
-
-.cardC3{
-    display:flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
-    width: 275px;
-    height: 402.9px;
-    background-image: url(imagens/fundolojav4.png);
-    justify-content: flex-start;
-    border-radius: 17px;
-    left: 50%;
-    
-    flex-wrap: nowrap;
-    margin-right: 92.6px;
-}
-
-.cardC4{
-    display:flex;/*Guilherme esse flex se quiser pode mudar dps, coloquei só para ter uma base*/
-    width: 275px;
-    height: 402.9px;
-    background-image: url(imagens/fundolojav4.png);
-    justify-content: flex-start;
-    border-radius: 17px;
-    left: 50%;
-        
-    flex-wrap: nowrap;
-    margin: right 0;
-}
-
-.cardC1, .cardC2, .cardC3, .cardC4{
-    display: inline-block;
-}
-
-
-
-/*Card 1*/
-
-.cardC1 {
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
+    transition: 0.2s;
     overflow: hidden;
     max-height: 500px;
     
 }
 
-.cardC1:hover {
-    height: 450px;
+.cardC:hover {
+    height: 85;
     scale: 1.15;
-}
-
-
-
-
-/*Card 2*/
-
-.cardC2 {
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
-    overflow: hidden;
-    max-height: 500px;
-    
-}
-
-.cardC2:hover {
-    height: 450px;
-    scale: 1.15;
-}
-
-
-
-/*Card 3*/
-
-.cardC3 {
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
-    overflow: hidden;
-    max-height: 500px;
-    
-}
-
-.cardC3:hover {
-    height: 450px;
-    scale: 1.15;
-}
-
-
-
-/*Card 4*/
-
-.cardC4 {
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
-    transition: 0.5s;
-    overflow: hidden;
-    max-height: 500px;
-    
-}
-
-.cardC4:hover {
-   height: 450px;
-   scale: 1.15;
 }
 
 
@@ -350,16 +236,15 @@ main {
 .IMGC{
     align-items: center;
     display: flex;
-    padding-left: 37.8px;
 }
 
 #fotoz{
     border-radius: 10px;
-    transition: 1.0s;
+    transition: 0.5s;
 }
 
 #fotoz:hover{
-    scale: 1.15;
+    scale: 1.1;
 }
 
 
