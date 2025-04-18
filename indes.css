@@ -202,9 +202,11 @@ main {
     align-items: center;
 }
 .cardC{
+    position: relative;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: space-between;
     width: 16%;
     height: 80%;
     background-image: url(imagens/fundolojav4.png);
@@ -216,29 +218,38 @@ main {
 }
 
 .cardC:hover {
-    height: 85;
     scale: 1.15;
 }
 
+#tst {
+    position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
 
+    height: 100%;
+    width: 100%;
+
+    transition: 0.2s;
+}
+#tst:hover{
+  
+    height: 100%;
+}
 /*Button cards*/
 
 .content{
-    position: relative;
-    top:410px;
-    max-height: 40px;
-    left: 95px;
+    margin-bottom: 10px;
     
 }
 
 /*imagem nos cards*/
 
-.IMGC{
-    align-items: center;
-    display: flex;
-}
+
 
 #fotoz{
+    margin-top: 5%;
     border-radius: 10px;
     transition: 0.5s;
 }
